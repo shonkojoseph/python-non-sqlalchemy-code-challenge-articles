@@ -144,8 +144,9 @@ class Magazine:
             if authors[author] >= 2:
                 list_of_authors.append(author) 
 
+
+        
         if (list_of_authors):
             return list_of_authors
         else:
             return None
-        #pass.
